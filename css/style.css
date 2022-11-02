@@ -1,0 +1,32 @@
+
+
+:root {
+  --fondo-principal: linear-gradient(
+    to right,
+    #ce5937 0%,
+    #a115a4 50%,
+    #9c17c5 100%
+  );
+}
+
+.titulo {
+  text-decoration: underline;
+  background: black !important;
+}
+
+
+nav {
+  background: var(--fondo-principal);
+  font-size: 1rem;
+  color: white;
+}
+
+.logo-img {
+  height: 3rem;
+}
+
+.carrousel {
+  transition-duration: 5s;
+}
+
+
